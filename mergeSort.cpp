@@ -1,3 +1,6 @@
+//                ---------------- Merge sort in c++  -----------
+//                           Author- PAWAN MISHRA ( Btech CSE 3ᴿᴰ Yr, KNIT Sultanpur )
+
 #include <bits/stdc++.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,8 +9,6 @@ using namespace  std;
 void merge(ll arrLeft[], ll arrRight[], ll arr[], ll larray, ll rarray, ll arrsize)
 {
     ll k=0,j=0,i=0;
-    //ll larray=sizeof(arrLeft)/sizeof(arrLeft[0]);
-    //ll rarray=sizeof(arrRight)/sizeof(arrRight[0]);
     while(larray!=0 && rarray!=0)
     {
         if(arrLeft[i]<arrRight[j])
